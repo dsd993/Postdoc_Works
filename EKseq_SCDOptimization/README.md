@@ -5,7 +5,7 @@
 1) input.in: Contains input parameters to generate SV series
 2) q.dat: containes the charge information for E-K residues.
 
-### Compile and execute the FORTRAN code as below:
+### Compile and run the FORTRAN code as below:
 
 gfortran mtfort90.f90 getSequence.f90 
 
