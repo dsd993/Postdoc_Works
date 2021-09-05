@@ -12,4 +12,4 @@ gfortran mtfort90.f90 getSequence.f90
 ./a.out input.in > seq_scd.dat
 
 * Note that seq_scd.dat is the output file to which the generated sequences and their corresponding SCD values are written. The file name is user's choice.
-* One can appropriate changes in the input.in and q.dat files to generates sequences of other different residues as well.
+* One can make appropriate changes in the input.in and q.dat files to generates sequences of other different residues as well.
