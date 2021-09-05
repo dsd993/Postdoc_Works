@@ -1,5 +1,7 @@
 ### This FORTRAN code generates sequences of E-K residues based on SCD optimization. 
 
+* Added getSCD() function to Young's FORTRAN code to generate sequences of E-K residues based on SCD optimization.
+
 #### Required files:
 
 1) input.in: Contains input parameters to generate SV series
