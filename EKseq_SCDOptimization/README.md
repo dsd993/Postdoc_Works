@@ -2,7 +2,7 @@
 
 * Added getSCD() function to Young's FORTRAN code to generate sequences of E-K residues based on SCD optimization.
 * This code has the flexibility to generate sequences between a user preferred minimum and maximum SCD, if needed. I have added two input parameters 'minSCD' and 'maxSCD' in the 'input.in' file that will be read by the code.   
- --> If the user does not have a preferred choice of SCD range within which the sequences has to be generated, specifiy a number greater than 10000 for 'minSCD' and 'maxSCD' in the 'input.in' file and the code will automatically find the possible minimum and maximum SCD for any given residues and generate sequences between it.
+ --> If the user does not have a preferred choice of SCD range within which the sequences has to be generated, specifiy a number greater than 10000 for 'minSCD' and 'maxSCD' in the 'input.in' file and the code will automatically find the possible minimum and maximum SCD for any given residues and generate sequences between it.  
  --> If the user have a preferred choice for how minimum (or/and) maximum the SCD should be, specify that choice in the 'input.in'.
  
  For Eg:
