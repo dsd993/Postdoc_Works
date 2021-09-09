@@ -1,0 +1,7 @@
+resname  E K
+resnum   25 25
+numseq   7
+seed     134578
+qfile    q.dat
+minSCD   -2.241678
+maxSCD   999999
