@@ -80,12 +80,12 @@ program main
            end if
         case ('qfile') 
            qfile = trim(args(2))
-		case ('minSCD')
-			read(args(2), *, iostat=ierr) min_SCD
-			if (ierr /= 0) stop 'Invalid format in minSCD!'
-		case ('maxSCD')
-			read(args(2), *, iostat=ierr) max_SCD
-			if (ierr /= 0) stop 'Invalid format in maxSCD!'
+	case ('minSCD')
+	   read(args(2), *, iostat=ierr) min_SCD
+	   if (ierr /= 0) stop 'Invalid format in minSCD!'
+	case ('maxSCD')
+	   read(args(2), *, iostat=ierr) max_SCD
+	   if (ierr /= 0) stop 'Invalid format in maxSCD!'
         end select
         deallocate(args)
      end if
@@ -119,7 +119,7 @@ program main
   write(0,*) e0, trim(seq)
   
   if (min_SCD < 10000) then
-    !below loop runs until the SCD value is pushed to the preferred minimum SCD value by the user
+        !below loop runs until the SCD value is pushed to the preferred minimum SCD value by the user
 	do while (e0 < min_SCD)
 		i1 = int(seq_length*grnd()) + 1
 		i2 = int(seq_length*grnd()) + 1
@@ -133,7 +133,7 @@ program main
 	emin = getSCD(seq1)
 	write(0,*) "min=",emin, " ", trim(seq1)
   else
-    !below loop runs for 1,000,000 iterations to pick the sequence with minimum SCD if there is no preference for minimum SCD
+        !below loop runs for 1,000,000 iterations to pick the sequence with minimum SCD if there is no preference for minimum SCD
 	do imc = 1, NMAX
 		e0o = e0
 		seqo = seq
@@ -167,7 +167,7 @@ program main
   write(0,*) e0, trim(seq)
   
   if (max_SCD < 10000) then
-    !below loop runs until the SCD value is pushed to the preferred maximum SCD value by the user
+        !below loop runs until the SCD value is pushed to the preferred maximum SCD value by the user
 	do while (e0 < max_SCD)
 		i1 = int(seq_length*grnd()) + 1
 		i2 = int(seq_length*grnd()) + 1
@@ -181,7 +181,7 @@ program main
 	emax = getSCD(seq2)
 	write(0,*) "max=",emax, " ", trim(seq2)
   else
-	!below loop runs for 1,000,000 iterations to pick the sequence with maximum SCD if there is no preference for maximum SCD by the user
+    !below loop runs for 1,000,000 iterations to pick the sequence with maximum SCD if there is no preference for maximum SCD by the user
     do imc = 1, NMAX
 		e0o = e0
 		seqo = seq
