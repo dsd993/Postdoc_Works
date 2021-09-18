@@ -26,3 +26,7 @@ Note that the "Intra_E2EAutoCorr.txt" will have 3 columns: The first column is t
 * If using a ICC compiler:  
     icc EndtoEndOrientation.cpp  
     ./a.out
+    
+### Other details:
+
+This code does moving average over all the frames and also averages over chains if there are more than 1 chain in the sytem.
