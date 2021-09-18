@@ -19,7 +19,7 @@ Note that the "Intra_E2EAutoCorr.txt" will have 3 columns: The first column is t
 
 ### Compile and run the C++ code as below:
 
-* If using a GCC compuler:  
+* If using a GCC compiler:  
     gcc -lstdc++ -lm  EndtoEndOrientation.cpp  
     ./a.out
     
