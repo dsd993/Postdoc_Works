@@ -8,7 +8,7 @@ Note that the "Intra_E2EAutoCorr.txt" will have 3 columns: The first column is t
 
 ### Requirements
 
-* This code requires dump files named "DumpFile.TimeStep" sorted based on atom-ids and has to be in the following format: id mol type q mass xu yu zu ix iy iz  
+* This code requires dump files named "DumpFile.TimeStep" sorted based on atom-ids and has to be in the following format: "id mol type q mass xu yu zu ix iy iz"  
 * xu, yu, zu refers to unwrapped coordinates
 
 ### Required Files
