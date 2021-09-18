@@ -1,8 +1,15 @@
 ### This C++ code calculates the following:
 
-1) End-to-end distance as a function of time
-2) End-to-end autocorrelation for inter-chains as a function of time (only when there are multiple chains in the system)
-3) End-to-end autocorrelation for intra-chains as a function of time
+1) End-to-end distance as a function of time in a file named "E2EDistance.txt"
+2) End-to-end autocorrelation for inter-chains as a function of time (only when there are multiple chains in the system) in a file named "Inter_E2EAutoCorr.txt"
+3) End-to-end autocorrelation for intra-chains as a function of time in a file named "Intra_E2EAutoCorr.txt"
+
+Note that the "Intra_E2EAutoCorr.txt" will have 3 columns: The first column is the timestep, the second column is just cos(theta), and the third column is the dot product of the end-to-end vectors divided by the initial dot product value at timestep t = 0.
+
+### Requirements
+
+* This code requires dump files named "DumpFile.TimeStep" sorted based on atom-ids and has to be in the following format: id mol type q mass xu yu zu ix iy iz  
+* xu, yu, zu refers to unwrapped coordinates
 
 ### Required Files
 
