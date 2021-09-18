@@ -1,0 +1,10 @@
+TrajFileName: ../dumpTraj/dump.traj
+NumberofChains: 1
+NumberofBeadsPerChain: 50
+StartTime: 1000000
+EndTime: 100000000
+IntervalTime: 1000
+AutoCorr_EndTime: 100000000
+
+//This code requires dump files named "DumpFile.TimeStep" sorted based on atom-ids and has to be in the following format: id mol type q mass xu yu zu ix iy iz
+//xu, yu, zu refers to unwrapped coordinates
