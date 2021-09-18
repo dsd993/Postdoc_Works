@@ -1,4 +1,5 @@
 //Code to calculate the end-to-end autocorrelation between both inter chains and intra chains
+//Code also calculated the end-to-end distance
 
 #include "ClassLAMMPSDump.h"
 
