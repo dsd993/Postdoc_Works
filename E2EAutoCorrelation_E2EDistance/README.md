@@ -12,10 +12,10 @@
 
 ### Compile and run the C++ code as below:
 
-* If using a GCC compuler:
-    gcc -lstdc++ -lm  EndtoEndOrientation.cpp
+* If using a GCC compuler:  
+    gcc -lstdc++ -lm  EndtoEndOrientation.cpp  
     ./a.out
     
-* If using a ICC compiler:
-    icc EndtoEndOrientation.cpp
+* If using a ICC compiler:  
+    icc EndtoEndOrientation.cpp  
     ./a.out
