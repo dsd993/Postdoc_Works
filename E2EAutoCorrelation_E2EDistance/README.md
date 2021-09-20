@@ -29,4 +29,4 @@ Note that the "Intra_E2EAutoCorr.txt" will have 3 columns: The first column is t
     
 ### Other details:
 
-This code does moving average over all the frames and also averages over chains if there are more than 1 chain in the sytem
+This code does moving average over all the frames and also averages over chains if there are more than 1 chain in the system
