@@ -1,3 +1,5 @@
+//Written by Dinesh S. Devarajan, dated 09/19/2021
+
 //Code to calculate the local bond autocorrelation of each bond in a chain and P2 - second order Legendre polynomial for the overall chain
 
 #include "ClassLAMMPSDump.h"
