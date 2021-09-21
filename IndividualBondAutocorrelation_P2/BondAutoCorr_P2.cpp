@@ -78,7 +78,7 @@ int main()
 		cout << "Reading dump file at time: " << (StartTime + (FileCounter * IntervalTime)) << endl;
 	}
 
-	//***************************Loop to calculate bond autocorrelation for each bonds in a chain*******************************
+	//***************************Loop to calculate bond autocorrelation for all the bonds in a chain*******************************
 	
 	//Moving time average is done and also averaged over the number of chains in the system!
 
