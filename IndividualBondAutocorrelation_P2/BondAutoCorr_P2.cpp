@@ -7,7 +7,7 @@
 //To calculate cos(theta)
 #define cos(x1, y1, z1, x2, y2, z2) ((x1*x2)+(y1*y2)+(z1*z2))/(sqrt((x1*x1)+(y1*y1)+(z1*z1))*sqrt((x2*x2)+(y2*y2)+(z2*z2)))
 
-//To calculate only the dot product between inter chains and intra chains
+//To calculate only the dot product
 #define dot_prod(x1, y1, z1, x2, y2, z2) ((x1*x2)+(y1*y2)+(z1*z2))
 
 struct SOPInfo
