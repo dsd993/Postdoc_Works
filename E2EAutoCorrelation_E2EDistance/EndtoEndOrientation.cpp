@@ -1,7 +1,7 @@
 //Written by Dinesh S. Devarajan, dated 09/15/2021
 
 //Code to calculate the end-to-end autocorrelation between both inter chains and intra chains
-//Code also calculated the end-to-end distance
+//Code also calculates the end-to-end distance
 
 #include "ClassLAMMPSDump.h"
 
