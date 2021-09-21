@@ -1,0 +1,7 @@
+TrajFileName: ../dumpTraj/dump.traj
+NumberofChains: 1
+NumberofBeadsPerChain: 50
+StartTime: 0
+EndTime: 10000000
+IntervalTime: 100
+P2_EndTime: 1000000
