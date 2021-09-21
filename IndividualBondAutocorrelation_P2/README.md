@@ -19,7 +19,7 @@ Note that the "BondAutoCorr_ForBond.BONDID" will have 3 columns: The first colum
 ### Compile and run the C++ code as below:
 
 * If using a GCC compiler:  
-    gcc -lstdc++ -lm  BondAutoCorr_P2.cpp 
+    gcc -lstdc++ -lm  BondAutoCorr_P2.cpp   
     ./a.out
     
 * If using a ICC compiler:  
