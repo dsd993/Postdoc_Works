@@ -80,7 +80,7 @@ int main()
 	//****************Selecting the atoms of interest based on the atom types given by the user********************
 	
 	//Selected atom ids are printed to a file named 'AtomsSelected.txt'
-    int *IndexAtomsofInterest; IndexAtomsofInterest = new int[NumberofAtomsofInterest];
+        int *IndexAtomsofInterest; IndexAtomsofInterest = new int[NumberofAtomsofInterest];
 	
 	ofstream Print("AtomsSelected.txt");
 	Print << "Following Atoms Selected for MSD Calculations" << endl;
