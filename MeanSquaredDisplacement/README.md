@@ -8,7 +8,7 @@ Note that the "MSDValues.txt" will have 5 columns: The first column is the times
 ### Requirements
 
 * This code requires dump files named "DumpFile.TimeStep" sorted based on atom-ids and has to be in the following format: "id mol type q mass xu yu zu ix iy iz"  
-* xu, yu, zu refers to unwrapped coordinates
+* xu, yu, zu refers to unwrapped coordinate
 
 ### Required files
 
