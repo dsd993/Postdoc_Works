@@ -60,7 +60,7 @@ int main()
 	double xv1, yv1, zv1, xv2, yv2, zv2, E2E_Dist, OPV, TotalValue, TotalValue_DotProd;
 	
 	int NumberofAtoms = NumberofChains * NumberofBeadsPerChain;  //Gettin the number of atoms in the system
-	int NumberofBonds = NumberofAtoms - 1;  //Gettin the number of bonds in the system
+	int NumberofBonds = NumberofBeadsPerChain - 1;  //Gettin the number of bonds per chain in the system
 	NumberofFiles = ((EndTime - StartTime) / IntervalTime) + 1; //Getting the number of files
 	
 	int n = 0;
