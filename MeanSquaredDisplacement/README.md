@@ -16,7 +16,7 @@ Note that the "MSDValues.txt" will have 5 columns: The first column is the times
 
 * In the parameter file, one needs to input the information about the system and the simulation details like trajectory file name, number of chains, beads per chain, number of inner monomers, start time, end time, interval time, number of atom types of interest, list of atom types, time unit conversion, and the COM flag.  If COMFlag == 'no', averaged mean squared displacement (MSD) of the individual beads in a chain is computed and if COMFlag == 'yes', COM MSD of the chain is computed
 
-* The parameter 'NumberofInnerMonomers' in the parameter text file gives the user the flexibility to choose the number of inner monomers in a polymer chain to compute g1(t).  For example, if the number of monomers in a polymer chain is 50, 30 inner monomers will be selected as 15 each on either side of the central monomer in each polymer chain.  
+* The parameter 'NumberofInnerMonomers' in the parameter text file gives the user the flexibility to choose the number of inner monomers in a polymer chain to compute g<sub>1</sub>(t).  For example, if the number of monomers in a polymer chain is 50, 30 inner monomers will be selected as 15 each on either side of the central monomer in each polymer chain.  For COM MSD, all the monomers in a polymer chain will be selected.  
 
 ### Compile and run the C++ code as below
 
