@@ -3,7 +3,7 @@
 1) Bond autocorrelation function for all the bonds of a chain in a file named "BondAutoCorr_ForBond.BOND-ID"
 2) P2 (second order Legendre polynomial) to quantify the orientational dynamics in a file named "P2_WholeChain.txt"
 
-Note that the "BondAutoCorr_ForBond.BONDID" will have 3 columns: The first column is the timestep, the second column is just cos(theta), and the third column is the dot product of the bond vectors divided by the initial dot product value at time t = 0
+Note that the "BondAutoCorr_ForBond.BONDID" will have 3 columns: The first column is the timestep, the second column is just cos(theta), and the third column is the dot product of the bond vectors divided by the initial dot product value at time t = 0.
 
 ### Requirements
 
