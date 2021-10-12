@@ -41,23 +41,25 @@ int main()
 		    ReadConfig >> NumberofInnerMonomers;
 			
 		if (TempStr == "Start:")
-			ReadConfig >> StartTime;
+		    ReadConfig >> StartTime;
 		
 		if (TempStr == "Stop:")
-			ReadConfig >> EndTime;
+		    ReadConfig >> EndTime;
 		
 		if (TempStr == "Interval:")
-			ReadConfig >> IntervalTime;
+		    ReadConfig >> IntervalTime;
 			
 		if (TempStr == "NoofAtomTypes:")
 		{
-			ReadConfig >> NumberofAtomTypes;
+		    ReadConfig >> NumberofAtomTypes;
 		    ListofAtomTypes = new int[NumberofAtomTypes];
 		}
 			
 		if (TempStr == "AtomTypeList:")
-			for (int AtomTypeCounter = 0; AtomTypeCounter < NumberofAtomTypes; ++AtomTypeCounter)
-				ReadConfig >> ListofAtomTypes[AtomTypeCounter];
+		{
+		    for (int AtomTypeCounter = 0; AtomTypeCounter < NumberofAtomTypes; ++AtomTypeCounter)
+		        ReadConfig >> ListofAtomTypes[AtomTypeCounter];
+		}
 			
 		if (TempStr == "TimeUnitConversion:")
 			ReadConfig >> TimeUnitConversion;
@@ -115,7 +117,7 @@ int main()
 	
 	ChainID = -1;
 	int AtomsofInterestCounter = 0;
-    if (COMFlag == "no") //Picking inner monomers based on atom type id and atom id
+        if (COMFlag == "no") //Picking inner monomers based on atom type id and atom id
 	{
 		for (int AtomCounter = 0; AtomCounter < AtomsofInterest.NumberofAtoms; ++AtomCounter)
 		{
