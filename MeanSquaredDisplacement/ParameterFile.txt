@@ -1,0 +1,11 @@
+TrajFileName: ../../dumpTraj_long/dump.traj
+NumberofChains: 500
+BeadsPerChain: 50
+NumberofInnerMonomers: 30
+Start: 42550000
+Stop: 92540000
+Interval: 10000
+NoofAtomTypes: 2
+AtomTypeList: 1 2
+TimeUnitConversion: 0.00001
+COMFlag(yes/no): no
