@@ -1,6 +1,6 @@
 ### This C++ code calculates the following:
 
-1) Averaged mean squared displacement (MSD) of the inner monomers in a chain (g1(t)) (or) the center of mass (COM) MSD of the chain (g3(t)) in a file named "MSDValues.txt"
+1) Averaged mean squared displacement (MSD) of the inner monomers in a chain (g1(t)) (or) the center of mass (COM) MSD of the chain (g_{3}(t)) in a file named "MSDValues.txt"
 2) Non-Gaussian parameter (alpha2) values in a file named "MSDValues.txt"
 
 Note that the "MSDValues.txt" will have 5 columns: The first column is the timestep, the second column is timestep * time unit conversion, the third column is the MSD values, the fourth column is the square of the MSD values, and the fifth column is the non-Gaussian parameter (alpha2) values.
