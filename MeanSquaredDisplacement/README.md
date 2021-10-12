@@ -9,7 +9,7 @@ Note that the "MSDValues.txt" will have 5 columns: The first column is the times
 
 * This code requires dump files named "DumpFile.TimeStep" sorted based on atom-ids and has to be in the following format: "id mol type q mass xu yu zu ix iy iz"  
 * xu, yu, zu refers to unwrapped coordinates
-* For the center of mass MSD, each chain must have a unique molecule ID.  That is, if you have 500 chains, molecule ID should go from 1 to 500.  
+* For the center of mass MSD, each chain must have a unique molecule ID.  That is, if the system contains 500 chains, molecule ID should go from 1 to 500.  
 
 ### Required files
 
