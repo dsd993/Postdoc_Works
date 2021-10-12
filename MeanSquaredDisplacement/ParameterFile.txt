@@ -1,8 +1,0 @@
-TrajFileName: ../dumpTraj/dump.traj
-Start: 0
-Stop: 100000000
-Interval: 1000
-NoofAtomTypes: 2
-AtomTypeList: 1 2
-TimeUnitConversion: 0.00001
-COMFlag(yes/no): no
