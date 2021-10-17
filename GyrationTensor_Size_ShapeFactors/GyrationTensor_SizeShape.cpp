@@ -46,6 +46,7 @@ int main()
 	ofstream OutInertiaEigenvectorsI("EigenVectors_MOITensor.txt");
 	ofstream OutInertiaEigenvectorsS("EigenVectors_GyrationTensor.txt");
 	ofstream WriteRhTime("Rh_VS_Time.txt");
+	ofstream AverageRh("AverageRh.txt");
 
 	int NumberofIntervals=int(floor((EndTime-StartTime)/IntervalTime)) + 1;
 	
@@ -240,9 +241,7 @@ int main()
 
 	//**************************Begining Rh calculations ...based on the Kirkwood approximation ...**********************************
 
-	ofstream AverageRh("AverageRh.txt");
-	// MasterLoop over files
-			
+	// MasterLoop over files		
 	double aveRH = 0;
 	VecDoub RH(NumberofIntervals);
 	for (int FileIndex = 0; FileIndex < NumberofIntervals;FileIndex ++)
