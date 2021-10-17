@@ -38,7 +38,7 @@ int main()
 	ReadConfig.close();
 	// Finished reading the parameter file
 
-	//*********************Creating all necessary Output files**************************
+	//*********************Creating all necessary output files**************************
 	ofstream WriteShapeTime ("Rg2Shapes_VS_Time.txt");
 	ofstream OutAverageRG("Rg2Shapes_Averages.txt");
 	ofstream OutInertiaEigenvaluesI("EigenValues_MOITensor.txt");
@@ -50,7 +50,7 @@ int main()
 
 	int NumberofIntervals=int(floor((EndTime-StartTime)/IntervalTime)) + 1;
 	
-	//***********************************Master loop over Files*****************************************
+	//***********************************Master loop over files*****************************************
 	int IntervalCounter = 0;
 	VecDoub Rg2(NumberofIntervals); VecDoub Rg2xx(NumberofIntervals); VecDoub Rg2yy(NumberofIntervals); VecDoub Rg2zz(NumberofIntervals);
 	VecDoub b(NumberofIntervals); VecDoub c(NumberofIntervals); VecDoub K2(NumberofIntervals);
@@ -239,7 +239,7 @@ int main()
 	OutAverageRG << aveRg2 <<" "<<sdevRg2<<" " <<aveb<<" "<<sdevb<<" "<<avec<<" "<<sdevc<<" "<<aveK2<<" "<<sdevK2;
 	// Rg calculations has finished ...All OK!
 
-	//**************************Begining Rh calculations ...based on the Kirkwood approximation ...**********************************
+	//**************************Begining Rh calculations....based on the Kirkwood approximation....**********************************
 
 	// MasterLoop over files		
 	double aveRH = 0;
