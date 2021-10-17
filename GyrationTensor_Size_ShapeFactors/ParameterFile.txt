@@ -1,0 +1,7 @@
+Dumpfilename ../dumpTraj/dump.traj
+COMfilename dumpCOM/dump.COM
+Start 0
+Stop 100000000
+Interval 1000
+NumberofMolecules 1
+NumberofAtomPerMolecules 50
