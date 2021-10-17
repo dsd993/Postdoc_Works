@@ -107,7 +107,8 @@ int main()
 			zv1 = D1[i].AtomsCoord[NumberofBeadsPerChain * j].AtomPosition.z - D1[i].AtomsCoord[NumberofBeadsPerChain * j + (NumberofBeadsPerChain - 1)].AtomPosition.z;
 			E2E_Dist += Distance(xv1,yv1,zv1);
 		}
-		E2E_Dist /= (NumberofChains*10);
+		//E2E_Dist /= (NumberofChains*10);
+		E2E_Dist /= (NumberofChains);
 		OutputResults_E2EDistance << (StartTime + (i * IntervalTime)) << ' ' << E2E_Dist << endl; //Outputs
 	}
 
