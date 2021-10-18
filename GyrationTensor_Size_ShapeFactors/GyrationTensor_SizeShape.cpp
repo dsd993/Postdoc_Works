@@ -32,9 +32,9 @@ int main()
 	double sdevRg2, sdevb, sdevc, sdevK2, sdevRh;
 	int NumberofMolecules, NumberofAtomPerMolecule;
 	int StartTime, EndTime, IntervalTime;
-	string TempString, DumpFilename, COMFilename, AverageResults, InstantaneousResults, GyrationTensor;
+	string TempString, DumpFilename, AverageResults, InstantaneousResults, GyrationTensor;
 	
-	ReadConfig >> TempString>>DumpFilename>> TempString>>COMFilename>>TempString>> StartTime>>TempString>>EndTime>>TempString>>IntervalTime>>TempString>> NumberofMolecules >> TempString>> NumberofAtomPerMolecule;
+	ReadConfig >> TempString>>DumpFilename>>TempString>>StartTime>>TempString>>EndTime>>TempString>>IntervalTime>>TempString>>NumberofMolecules>>TempString>>NumberofAtomPerMolecule;
 	ReadConfig.close();
 	// Finished reading the parameter file
 
