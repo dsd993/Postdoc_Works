@@ -1,5 +1,4 @@
 Dumpfilename ../dumpTraj/dump.traj
-COMfilename dumpCOM/dump.COM
 Start 0
 Stop 100000000
 Interval 1000
