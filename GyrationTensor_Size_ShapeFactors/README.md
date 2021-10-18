@@ -4,7 +4,7 @@
 2) Hydrodynamic radius based on Kirkwood approximation, Rh
 3) Shape factors: Asphericity (b), Acylindricity (c), and relative anisotropy (\kappa squared)
 4) Eigen values
-5) Principal axis vector both from gyration tensor and MOI (momnet of inertia) tensor
+5) Principal axis vector both from gyration tensor and MOI (moment of inertia) tensor
 
 The eigen vector corresponding to the maximum eigen value in the case of gyration tensor or the eigen vector corresponding to the 
 minimum eigen value in the case of the moment of inertia tensor was chosen to be the principle axis of a given polymer chain.
