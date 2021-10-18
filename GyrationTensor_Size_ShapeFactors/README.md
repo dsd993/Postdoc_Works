@@ -2,7 +2,7 @@
 
 1) Radius of gyration, Rg
 2) Hydrodynamic radius based on Kirkwood approximation, Rh
-3) Shape factors: Asphericity (b), Acyndricity (c), and relative anisotropy (\kappa squared)
+3) Shape factors: Asphericity (b), Acylindricity (c), and relative anisotropy (\kappa squared)
 4) Eigen values
 5) Principal axis vector both from gyration tensor and MOI (momnet of inertia) tensor
 
