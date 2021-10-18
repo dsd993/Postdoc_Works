@@ -13,7 +13,7 @@ Note that the "MSDValues.txt" will have 5 columns: The first column is the times
 
 ### Required files
 
-* This code comes with 3 files: (1) one .cpp file, (2) one .h header file, (3) parameter text file
+* This code comes with 3 files: (1) one .cpp file, (2) one .h header file, (3) one parameter text file
 
 * In the parameter file, one needs to input the information about the system and the simulation details like trajectory file name, number of chains, beads per chain, number of inner monomers, start time, end time, interval time, number of atom types of interest, list of atom types, time unit conversion, and the COM flag.  If COMFlag == 'no', averaged mean squared displacement (MSD) of the individual beads in a chain is computed and if COMFlag == 'yes', COM MSD of the chain is computed
 
