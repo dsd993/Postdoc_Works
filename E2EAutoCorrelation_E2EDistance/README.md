@@ -13,7 +13,7 @@ Note that the "Intra_E2EAutoCorr.txt" will have 3 columns: The first column is t
 
 ### Required files
 
-* This code comes with 3 files: (1) one .cpp file, (2) one .h header file, (3) parameter text file
+* This code comes with 3 files: (1) one .cpp file, (2) one .h header file, (3) one parameter text file
 
 * In the parameter file, one needs to input the information about the system and the simulation details like trajectory file name, number of chains, number of beads per chain, start time, end time, interval time, autocorrelation end time.  Autocorrelation end time is nothing but let's say one has trajectory information for 10<sup>8</sup> steps but knows that the correlation goes to zero in 10<sup>6</sup> steps, one can then specify autocorrelation end time as 10<sup>6</sup> and the code will terminate once it has calculated the autocorrelation value until 10<sup>6</sup> steps
 
