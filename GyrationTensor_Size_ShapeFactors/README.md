@@ -19,9 +19,9 @@ minimum eigen value in the case of the moment of inertia tensor was chosen to be
 
 * In the 'EigenValues_MOITensor.txt' file that the code outputs, the first column is timestep, second column is maximum Eigen value from MOI tensor, third column is intermediate Eigen value from MOI tensor, and fourth column is minimum Eigen value from MOI tensor
 
-* In the 'EigenVectors_GyrationTensor.txt' file that the code outputs, the first column is timestep and the second, third, and fourth column are the principal axis vector components corresponding to the maximum Eigen value obtained from the Gyration tensor.
+* In the 'EigenVectors_GyrationTensor.txt' file that the code outputs, the first column is timestep and the second, third, and fourth columns are the principal axis vector components corresponding to the maximum Eigen value obtained from the Gyration tensor.
 
-* In the 'EigenVectors_MOITensor.txt' file that the code outputs, the first column is timestep and the second, third, and fourth column are the principal axis vector components corresponding to the minimum Eigen value obtained from the MOI tensor.
+* In the 'EigenVectors_MOITensor.txt' file that the code outputs, the first column is timestep and the second, third, and fourth columns are the principal axis vector components corresponding to the minimum Eigen value obtained from the MOI tensor.
 
 * In the 'Rg2Shapes_Averages.txt' file that the code outputs, the first and second columns are averaged Rg squared and standard deviation of Rg squared, the third and fourth columns are averaged b and standard deviation of b, the fifth and sixth columns are averaged c and standard deviation of c, and finally, the seventh and eigth columns are averaged \kappa squared and standard deviation of \kappa squared.
 
