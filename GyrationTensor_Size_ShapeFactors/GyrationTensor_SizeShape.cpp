@@ -15,7 +15,7 @@ The eigen vector corresponding to the maximum eigen value in the case of gyratio
 minimum eigen value in the case of the moment of inertia tensor was chosen to be the principle axis of a given polymer chain.
 */
 
-// For definitions of the radius of gyration tensor components (S) and moment of inertia tensor components(I), refer to the folloing paper: https://doi.org/10.1021/jp2065612
+// For definitions of the radius of gyration tensor components (S) and moment of inertia tensor components(I), refer to the following paper: https://doi.org/10.1021/jp2065612
 
 //Header files
 #include "ClassLAMMPSDumpFile.h"
